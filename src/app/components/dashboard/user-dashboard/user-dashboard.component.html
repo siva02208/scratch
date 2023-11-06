@@ -1,0 +1,18 @@
+<nav>
+    <div class="navbar">
+    <b>User</b>
+    <a href="" class="btn btn-danger">logout</a>
+    </div>
+</nav>
+
+<div class="card" style="width: 18rem;" *ngFor="let book of books">
+  <div class="card-body">
+    <h2 class="card-title">{{book.title}}</h2>
+    <h5 class="card-data">{{book.author}}</h5>
+    <h5 class="card-data">{{book.publicationYear}}</h5>
+    <h5 class="card-data">{{book.publisher}}</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <button class="btn btn-danger" >View</button>
+  </div>
+
+  </div>
